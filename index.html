@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            height: 100%;
+        }
+        .left {
+            background-color: black; 
+            flex: 1;
+        }
+        .right {
+            background-color: white; 
+            flex: 1;
+        }
+        @keyframes example{
+            from {background-color: black; }
+            to {background-color: white;}
+        }
+        @keyframes example2{
+            from {color: white;}
+            to {color: black;}
+        }
+        @keyframes example3{
+            0% { transform: translate(0, 0) rotate(0deg);}
+            25% {transform: translate(45px, -30px) rotate(45deg);}
+            50% {transform: translate(-100px, 0) rotate(90deg);}
+            75% {transform: translate(-60px, -150px) rotate(135deg);}
+            100% {transform: translate(-80px, 0) rotate(180deg);}
+        
+        }
+        @keyframes example4{
+            0% {height: 24px;}
+            50% {height: 120px;}
+            100%{height: 24px;}
+
+        }
+        @keyframes example5{
+            0% {height: 48px;}
+            50% {height: 96px}
+            100%{height: 48px;}
+        }
+        @keyframes example6{
+            0% {height: 96px;}
+            50% {height: 48px;}
+            100%{height: 96px;}
+        }
+        @keyframes example7{
+            0% {height: 120px;}
+            50% {height: 24px;}
+            100%{height: 120px;}
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+                    <div class="background1">
+                    <div class="triangle"></div>
+                    <div class="Plus">+</div>
+                    </div>
+           
+        </div>
+        <div class="right">
+                <div class="background2">
+                    <div class="colum1"></div>
+                    <div class="colum2"></div>
+                    <div class="colum3"></div>
+                    <div class="colum4"></div>
+                    <div class="colum5"></div>
+                    <div class="circle"></div>
+            </div>
+        </div>
+</div>
+</body>
+</html>
+<!-- <body>
+    <div id="OngNoi">
+
+        <div class="Cha">
+        <div class="Tamgiac"></div>
+        <div class="daucong">+</div>
+        </div>
+        <div class="Chu">
+            <div class="cot">1</div>
+            <div class="cot">2</div>
+            <div class="cot">3</div>
+            <div class="cot">4</div>
+            <div class="cot">5</div>
+            <div class="tron"></div>
+        </div>
+        
+    </div> -->
+
+</body>
+</html>
